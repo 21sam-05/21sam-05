@@ -1,0 +1,101 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNo41sN922JgXGqa3rKEswZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/21sam-05/21sam-05/blob/main/PYTHON%20-1%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "BT5IBsS9rm47"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#write a python program to generate a random list of integers and then randomly pop out its elements\n",
+        "\n",
+        "import random\n",
+        "\n",
+        "def generate_random_list(size, lower_bound, upper_bound):\n",
+        "    \"\"\"Generates a list of random integers.\"\"\"\n",
+        "    return [random.randint(lower_bound, upper_bound) for _ in range(size)]\n",
+        "\n",
+        "def remove_random_elements(lst, num_elements_to_remove):\n",
+        "    \"\"\"Randomly removes a specified number of elements from the list.\"\"\"\n",
+        "    if num_elements_to_remove >= len(lst):\n",
+        "        return []\n",
+        "    for _ in range(num_elements_to_remove):\n",
+        "        element_to_remove = random.choice(lst)\n",
+        "        lst.remove(element_to_remove)\n",
+        "    return lst\n",
+        "\n",
+        "# Input parameters\n",
+        "list_size = 10  # Size of the random list\n",
+        "lower_bound = 1  # Lower bound of random integers\n",
+        "upper_bound = 100  # Upper bound of random integers\n",
+        "num_elements_to_remove = 3  # Number of elements to remove from the list\n",
+        "\n",
+        "# Generate a random list of integers\n",
+        "random_list = generate_random_list(list_size, lower_bound, upper_bound)\n",
+        "print(f\"Original list: {random_list}\")\n",
+        "\n",
+        "# Remove random elements from the list\n",
+        "updated_list = remove_random_elements(random_list, num_elements_to_remove)\n",
+        "print(f\"Updated list after removing {num_elements_to_remove} elements: {updated_list}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1wwAbcrRrqqK",
+        "outputId": "71925de7-5e78-4dbd-d7b5-093274ea980a"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original list: [96, 46, 56, 58, 7, 44, 41, 74, 58, 47]\n",
+            "Updated list after removing 3 elements: [96, 56, 58, 44, 41, 58, 47]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qgeWTRJOrqnI"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}

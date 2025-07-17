@@ -1,7 +1,9 @@
-- 👋 Hi, I’m @21sam-05
-- 👀 I’m interested in creating a digital portfolio
-- 🌱 I’m currently learning ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
-- 💞️ I’m looking to collaborate on projects which help me grow in the AI field 
+- 👋 Hi,I am Samridhi Saxena
+- I am currently pursuing B.tech from VIT BHOPAL UNIVERSITY
+- My Specialization is in AIML 
+- 👀 I’m interested in Data science , DevOps and Web development
+- 🌱 I’m currently working on data science and web development projects
+- 💞️ I’m looking to collaborate on projects which help me grow in these fields
 - 📫 How to reach me - saxenasamridhi1921@gmail.com
 
 <!---

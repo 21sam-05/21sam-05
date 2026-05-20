@@ -2,9 +2,10 @@
 - I am currently pursuing B.tech from VIT BHOPAL UNIVERSITY
 - My Specialization is in AIML 
 - 👀 I’m interested in Data science , DevOps and Web development
-- 🌱 I’m currently working on data science and web development projects
+- 🌱 I’m currently working on data science , full stack and rag based projects
 - 💞️ I’m looking to collaborate on projects which help me grow in these fields
 - 📫 How to reach me - saxenasamridhi1921@gmail.com
+- linkedIn- https://www.linkedin.com/in/samridhi-saxena-07231a28a/
 
 <!---
 21sam-05/21sam-05 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
